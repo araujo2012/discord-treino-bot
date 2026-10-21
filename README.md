@@ -47,7 +47,7 @@ Roteiro para Ubuntu/Debian. Rode como root (ou com `sudo`):
 ```bash
 apt update && apt install -y python3 python3-venv git
 useradd --system --create-home --shell /usr/sbin/nologin treinobot
-git clone https://github.com/<seu-usuario>/<repo>.git /opt/treino-bot
+git clone https://github.com/araujo2012/discord-treino-bot.git /opt/treino-bot
 cd /opt/treino-bot
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
