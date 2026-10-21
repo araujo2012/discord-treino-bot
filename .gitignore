@@ -1,0 +1,10 @@
+# Segredos e estado local
+.env
+data.json
+data.tmp
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
